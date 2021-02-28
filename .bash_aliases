@@ -2,8 +2,6 @@ alias poweroff="sudo shutdown -h now"
 # git stuff
 alias gac="git add . && git commit -m"
 alias gp="git push"
-alias startgit="cd `git rev-parse --show-toplevel` && git checkout master && git pull"
-alias cg="cd `git rev-parse --show-toplevel`"
 
 alias hs="history | grep"
 alias xampp="sudo ~/xampp-start.sh"
