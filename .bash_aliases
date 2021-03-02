@@ -6,14 +6,15 @@ alias poweroff='sudo shutdown -h now'
 
 alias ~='code'
 
-# git stuff
-alias g:ac='git add . && git commit -m'
-alias g:p='git push'
-alias g:co='git checkout'
-alias g:cob='git checkout -b'
-alias g:d='git diff'
-alias g:l='git log --graph --oneline --decorate --all'
-alias g:c='git clone'
+git stuff
+alias gac='git add . && git commit -m'
+alias gp='git push'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias gd='git diff'
+alias gl='git log --graph --oneline --decorate --all'
+alias gc='git clone'
+alias gs='git status'
 
 alias hs='history | grep'
 
@@ -26,6 +27,7 @@ alias pl='pwd; ls'
 # custom bash config
 alias bash:code='code ~/.bash'
 alias bash:cd='cd ~/.bash'
+alias bash:aliases='cat ~/.bash/.bash_aliases'
 alias bash:re='source ~/.bashrc && echo Bash config reloaded'
 
 alias ssh:config='${EDITOR:-code} ~/.ssh/config'
