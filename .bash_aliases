@@ -6,7 +6,7 @@ alias poweroff='sudo shutdown -h now'
 
 alias ~='code'
 
-git stuff
+# git stuff
 alias gac='git add . && git commit -m'
 alias gp='git push'
 alias gco='git checkout'
@@ -59,4 +59,4 @@ alias randpass='openssl rand -base64 20'
 
 alias panic='espeak "OH NO, the sky is falling!"'
 
-alias :q='exit'
+alias q='exit'
