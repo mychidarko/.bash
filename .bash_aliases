@@ -13,8 +13,10 @@ alias gco='git checkout'
 alias gcob='git checkout -b'
 alias gd='git diff'
 alias gl='git log --graph --oneline --decorate --all'
+alias glog='git log --graph --all --decorate'
 alias gc='git clone'
 alias gs='git status'
+alias git@mychi='git config --global user.name "darko-mychi" && git config --global user.email "mickdd22@gmail.com"'
 
 alias hs='history | grep'
 
@@ -61,3 +63,7 @@ alias randpass='openssl rand -base64 20'
 alias panic='espeak "OH NO, the sky is falling!"'
 
 alias q='exit'
+
+# npm yarn stuff
+alias ya='yarn add'
+alias yag='yarn global add'
