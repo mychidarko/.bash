@@ -29,6 +29,7 @@ alias bash:code='code ~/.bash'
 alias bash:cd='cd ~/.bash'
 alias bash:aliases='cat ~/.bash/.bash_aliases'
 alias bash:re='source ~/.bashrc && echo Bash config reloaded'
+alias zsh:re='source ~/.zshrc && echo Zsh config reloaded'
 
 alias ssh:config='${EDITOR:-code} ~/.ssh/config'
 alias ssh:clear='rm ~/.ssh/multiplex/* -f && echo SSH connection cache cleared;'
