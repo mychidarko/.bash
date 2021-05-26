@@ -36,8 +36,8 @@ alias ssh:list='echo Currently open ssh connections && echo && l ~/.ssh/multiple
 
 # navigation
 alias ..='cd ..'
-alias ...='cd ../../../'
-alias ....='cd ../../../../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
