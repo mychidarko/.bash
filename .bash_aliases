@@ -16,7 +16,7 @@ alias gl='git log --graph --oneline --decorate --all'
 alias glog='git log --graph --all --decorate'
 alias gc='git clone'
 alias gs='git status'
-alias git@mychi='git config --global user.name "darko-mychi" && git config --global user.email "mickdd22@gmail.com"'
+alias git@mychi='git config --global user.name "darko-mychi" && git config --global user.email "mickdd22@gmail.com" && git config --global init.defaultBranch main'
 
 alias hs='history | grep'
 
