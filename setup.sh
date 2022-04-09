@@ -56,6 +56,9 @@ npm install -g yarn
 
 apps=(
     docker
+    android-studio
+    visual-studio-code
+    goland
 )
 
 brew install --cask ${apps[@]}
