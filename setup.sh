@@ -61,6 +61,7 @@ apps=(
     visual-studio-code
     goland
     hakuneko
+    google-chrome
 )
 
 brew install --cask ${apps[@]}
