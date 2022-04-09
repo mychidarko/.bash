@@ -45,6 +45,10 @@ installables=(
 
 brew install ${installables[@]}
 
+echo "PHP version: " && php --version
+echo "Node version: " && node --version
+echo "Npm version: " && npm --version
+
 # Install yarn
 npm install -g yarn
 
