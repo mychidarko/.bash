@@ -54,5 +54,11 @@ echo "Npm version: " && npm --version
 # Install yarn
 npm install -g yarn
 
+apps=(
+    docker
+)
+
+brew install --cask ${apps[@]}
+
 # setup folders
 mkdir ~/Projects
