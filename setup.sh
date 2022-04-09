@@ -59,6 +59,7 @@ apps=(
     android-studio
     visual-studio-code
     goland
+    hakuneko
 )
 
 brew install --cask ${apps[@]}
