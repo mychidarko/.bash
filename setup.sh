@@ -35,15 +35,16 @@ echo "Installing important packages..."
 
 # Install most used important packages
 installables=(
+    ruby
     git
     wget
-    ruby
     python
     node
     php
     flutter
     go
     cocoapods
+    composer
 )
 
 brew install ${installables[@]}
