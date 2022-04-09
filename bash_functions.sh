@@ -33,3 +33,14 @@ function extract {
         done
     fi
 }
+
+function mcd {
+    if [ -d "$1" ]; then
+        echo "$1 already exists, switching instead..."
+        cd $1
+    else
+        mkdir $1
+        cd $1
+    fi
+    
+}
