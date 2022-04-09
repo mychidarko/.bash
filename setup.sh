@@ -41,6 +41,8 @@ installables=(
     python
     node
     php
+    flutter
+    go
 )
 
 brew install ${installables[@]}
