@@ -43,6 +43,7 @@ installables=(
     php
     flutter
     go
+    cocoapods
 )
 
 brew install ${installables[@]}
