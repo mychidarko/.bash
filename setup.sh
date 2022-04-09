@@ -49,4 +49,4 @@ brew install ${installables[@]}
 npm install -g yarn
 
 # setup folders
-mkdir ~/projects
+mkdir ~/Projects
