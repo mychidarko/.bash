@@ -5,6 +5,7 @@ alias path='echo -e ${PATH//:/\\n}'
 alias poweroff='sudo shutdown -h now'
 
 alias ~='code'
+alias ~~='code-insiders'
 
 # git stuff
 alias gac='git add . && git commit -m'
@@ -28,11 +29,13 @@ alias pl='pwd; ls'
 
 # custom bash config
 alias bash:code='code ~/.bash'
+alias bash:codi='code-insiders ~/.bash'
 alias bash:cd='cd ~/.bash'
 alias bash:aliases='cat ~/.bash/.bash_aliases'
 alias bash:re='source ~/.bashrc && echo Bash config reloaded'
 alias zsh:re='source ~/.zshrc && echo Zsh config reloaded'
 
+alias ssh:re='ssh-add -D'
 alias ssh:config='${EDITOR:-code} ~/.ssh/config'
 alias ssh:clear='rm ~/.ssh/multiplex/* -f && echo SSH connection cache cleared;'
 alias ssh:list='echo Currently open ssh connections && echo && l ~/.ssh/multiplex/'
