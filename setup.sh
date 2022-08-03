@@ -4,6 +4,8 @@
 if test ! $(which brew); then
     echo "Installing Homebrew..."
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 else
     echo "Updating Homebrew..."
     brew update
@@ -63,6 +65,14 @@ apps=(
     goland
     hakuneko
     google-chrome
+    vlc
+    discord
+    postman
+    brave-browser
+    audacity
+    zoom
+    raycast
+    linear-linear
 )
 
 brew install --cask ${apps[@]}
