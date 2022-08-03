@@ -76,6 +76,7 @@ apps=(
     google-drive
     obs
     phpstorm
+    notion
 )
 
 brew install --cask ${apps[@]}
