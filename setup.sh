@@ -73,6 +73,8 @@ apps=(
     zoom
     raycast
     linear-linear
+    google-drive
+    obs
 )
 
 brew install --cask ${apps[@]}
