@@ -75,6 +75,7 @@ apps=(
     linear-linear
     google-drive
     obs
+    phpstorm
 )
 
 brew install --cask ${apps[@]}
